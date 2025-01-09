@@ -119,5 +119,17 @@ section.gallery {
         & header span {
             --text-sm: .75rem;
         }
+
+        & figure > img {
+            height: 16rem;
+        }
+
+        & .content {
+            grid-template-areas:
+            "A"
+            "B"
+            "C"
+            "D";
+        }
     }
 }
