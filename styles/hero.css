@@ -235,6 +235,16 @@ section.hero {
         & h1 div {
             height: 2.5rem;
         }
+
+        & div:nth-child(2) {
+            & img[src*="stars-1"] {
+                top: 15%;
+            }
+
+            & img[src*="stars-2"] {
+                bottom: 55%;
+            }
+        }
     }
 
     @keyframes slideUp {
