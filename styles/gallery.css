@@ -9,7 +9,7 @@ section.gallery {
     }
 
     & header span {
-        font: 500 var(--text-sm)/1,5 var(--ff-base);
+        font: 500 var(--text-sm)/1.5 var(--ff-base);
     }
 
     & img {
@@ -111,5 +111,13 @@ section.gallery {
     from {
         opacity: 0;
         transform: translateY(100%);
+    }
+}
+
+@media (width < 80rem) {
+    section.gallery{
+        & header span {
+            --text-sm: .75rem;
+        }
     }
 }
